@@ -2,9 +2,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER  */
 .sony-logo{
     background-color: black;
     height: 30px;
+    text-align: right;
+    padding-right: 15px;
 }
 
 .sony-logo img{
@@ -13,10 +16,12 @@ body{
 
 .my_btn{
     border-radius: 25px;
+    color: white;
 }
 
 .header-playstaion-nav a{
     position: relative;
+    white-space: nowrap;
 }
 
 .my_caron::after{
@@ -28,12 +33,35 @@ body{
     right: 0;
 }
 
-#my_login-btn{
+/* MAIN */
+.jumbotron{
+    height: calc(100vh - 78px - 30px);
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inner-jumbo-text{
     color: white;
-    background-color: rgb(41, 41, 41);
-    border-color: rgb(41, 41, 41);
+    /* width: 30%; */
+}
+
+.inner-jumbo-text img{
+    width: 250px;
+}
+
+#my_login-btn{
+    background-color: #363636;
+    border-color: #363636;
 }
 
 #lens-dim{
     width: 30px;
 }
+
+#my_buy-btn{
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+}
+
