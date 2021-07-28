@@ -35,20 +35,23 @@ body{
 
 /* MAIN */
 .jumbotron{
-    height: calc(100vh - 78px - 30px);
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.jumbotron .row{
+    height: calc(100vh - 78px - 30px);
+}
+
 .inner-jumbo-text{
     color: white;
-    /* width: 30%; */
 }
 
 .inner-jumbo-text img{
     width: 250px;
+    margin-bottom: 30px;
 }
 
 #my_login-btn{
