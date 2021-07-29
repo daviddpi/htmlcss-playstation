@@ -103,6 +103,26 @@ body{
     filter: opacity(100%);
 }
 
+.take-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.take-two .row{
+    height: calc(100vh);
+}
+
+.inner-take-two-text{
+    color: white;
+}
+
+.inner-take-two-text img{
+    width: 250px;
+    margin-bottom: 30px;
+}
 
 /* ID  */
 
