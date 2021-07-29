@@ -24,6 +24,10 @@ body{
     white-space: nowrap;
 }
 
+.navbar-nav:hover a{
+    color: #0070d1;
+}
+
 .my_caron::after{
     content: "\030C";
     font-size: 1.5em;
@@ -39,6 +43,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 .jumbotron .row{
@@ -54,17 +59,33 @@ body{
     margin-bottom: 30px;
 }
 
+.my_buy-btn{
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+}
+
+.game-logo img{
+    max-width: 100%;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    padding: 3px;
+}
+
+.game-logo img:hover{
+    border: 3px solid #0072ce;
+    cursor: pointer;
+}
+
 #my_login-btn{
     background-color: #363636;
     border-color: #363636;
 }
 
+#my_login-btn:hover{
+    background-color: #1a1919;
+    border-color: #1a1919;
+}
+
 #lens-dim{
     width: 30px;
 }
-
-#my_buy-btn{
-    background-color: #cd3d0f;
-    border-color: #cd3d0f;
-}
-
