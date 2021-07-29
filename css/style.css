@@ -76,6 +76,36 @@ body{
     cursor: pointer;
 }
 
+.ps5-text h5{
+    color: #66aae1;
+}
+
+.ps5-console-image img{
+    max-width: 100%;
+}
+
+.thumb-device div{
+    border-bottom: 3px solid transparent;
+}
+
+.thumb-device img{
+    max-width: 100%;
+    padding-bottom: 5px;
+    filter: opacity(40%);
+}
+
+.thumb-device div:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #4095da;
+}
+
+.thumb-device div:hover img{
+    filter: opacity(100%);
+}
+
+
+/* ID  */
+
 #my_login-btn{
     background-color: #363636;
     border-color: #363636;
@@ -89,3 +119,14 @@ body{
 #lens-dim{
     width: 30px;
 }
+
+#my_more-info-btn{
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+}
+
+#my_more-info-btn:hover{
+    background-color: #1a42a1;
+    border-color: #1a42a1;
+}
+
