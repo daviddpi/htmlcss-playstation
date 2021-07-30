@@ -64,6 +64,17 @@ body{
     border-color: #cd3d0f;
 }
 
+.my_more-info-btn{
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+}
+
+.my_more-info-btn:hover{
+    background-color: #1a42a1;
+    border-color: #1a42a1;
+}
+
+
 .game-logo img{
     max-width: 100%;
     border-radius: 15px;
@@ -127,6 +138,7 @@ body{
     padding: 25px;
     background-color: #1f1f1f;
     color: white;
+    margin-bottom: 50px;
 }
 
 .nuove-uscite img{
@@ -136,7 +148,11 @@ body{
 }
 
 .nuove-uscite h6{
-    width: 80%;
+    width: 90%;
+}
+
+.explore-ps4 img{
+    max-width: 100%;
 }
 
 /* ID  */
@@ -154,14 +170,3 @@ body{
 #lens-dim{
     width: 30px;
 }
-
-#my_more-info-btn{
-    background-color: #2d64e6;
-    border-color: #2d64e6;
-}
-
-#my_more-info-btn:hover{
-    background-color: #1a42a1;
-    border-color: #1a42a1;
-}
-
