@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,9 @@
 
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- link font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css">
@@ -290,12 +293,12 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 ps-5">
-                            <img id="logo-psplus" class="pt-4" src="img/ps-plus-logo.png" alt="Ps plus logo">
+                            <img class="pt-4 title-logo-psnow-plus" src="img/ps-plus-logo.png" alt="Ps plus logo">
                             <p class="mb-4">Migliora la tua esperineza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora</p>
                             <button class="btn btn-outline-success my_btn mb-3" id="my_psplus-btn" type="submit">Esplora PlayStation plus</button>
                         </div>
                         <div class="col-12 col-md-6 d-none d-md-block d-lg-block">
-                            <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="Ps Plus game monthly">
+                            <img class="bg-img-psnow-plus" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="Ps Plus game monthly">
                         </div>
                     </div>
                 </div>
@@ -330,19 +333,129 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 ps-5">
-                            <img class="pt-4 logo-psplus-now" id="logo-psnow" src="img/ps-now-logo-two-column.png" alt="Ps plus logo">
+                            <img class="pt-4 title-logo-psnow-plus" src="img/ps-now-logo-two-column.png" alt="Ps plus logo">
                             <p class="mb-4">Ottieni l'accesso immediato e una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                            <button class="btn btn-outline-success my_btn mb-3" id="my_psnow-btn" type="submit">Esplora PlayStation plus</button>
+                            <button class="btn btn-outline-success my_btn mb-4" id="my_psnow-btn" type="submit">Esplora PlayStation plus</button>
                         </div>
                         <div class="col-12 col-md-6 d-none d-md-block d-lg-block">
-                            <img src="img/ps-now-april-featured-image-block.png" alt="Ps Plus game monthly">
+                            <img class="bg-img-psnow-plus" src="img/ps-now-april-featured-image-block.png" alt="Ps Plus game monthly">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- sezione social -->
+            <section class="social">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-12 text-center">
+                            <h3>Seguici sui social media</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-6 col-sm-3">
+                            <img src="img/twitter.jpg" alt="Twitter logo">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="img/facebook.jpg" alt="Facebook logo">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="img/instagram.jpg" alt="Instagram logo">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="img/youtube.png" alt="Youtube logo">
                         </div>
                     </div>
                 </div>
             </section>
         </main>
 
+        <footer>
+            <section class="footer-ps ps-4 pe-4 pt-5">
+                <div class="container-fluid">
 
+                    <!-- riga logo e lista del footer -->
+                    <div class="row mb-5">
+                        <div class="col-12 col-lg-5">
+                            <img id="ps-footer-logo-ps" src="img/ps-footer.svg" alt="Playstation logo">
+                            <div class="select-language">
+                                <i class="fas fa-globe"></i>
+                                Country / Region: Italy
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 d-flex align-items-start">
+                            <ul class="me-5">
+                                <li>
+                                    <a href="#">Supporto</a>
+                                </li>
+                                <li>
+                                    <a href="#">Informativa sulla privacy e sui cookie</a>
+                                </li>
+                                <li>
+                                    <a href="#">Termini di utilizzo del sito Web</a>
+                                </li>
+                                <li>
+                                    <a href="#">Playstation Studios</a>
+                                </li>
+                                <li>
+                                    <a href="#">Termini legali</a>
+                                </li>
+                                <li>
+                                    <a href="#">Chi siamo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Playstation e l'ambiente</a>
+                                </li>
+                            </ul>
+                            <ul class="me-5">
+                                <li>
+                                    <a href="#">Termini di servizio di PSN</a>
+                                </li>
+                                <li>
+                                    <a href="#">Termini di annullamento del PS Store</a>
+                                </li>
+                                <li>
+                                    <a href="#">Avvertenze per la salute</a>
+                                </li>
+                                <li>
+                                    <a href="#">Classificazioni per età</a>
+                                </li>
+                                <li>
+                                    <a href="#">Termini d'uso del Software</a>
+                                </li>
+                                <li>
+                                    <a href="#">lavora con Playstation</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mappa del sito</a>
+                                </li>
+                            </ul>
+                            <ul class="me-5">
+                                <li>
+                                    <a href="#">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Youtube</a>
+                                </li>
+                                <li>
+                                    <a href="#">Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <img id="ps-footer-sie-logo" src="img/sie-logo.svg" alt="Sie logo">
+                            <p>Website &copy;2021 Sony interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietati. Tutti i diritti riservati. <a href="#">Maggiri info</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
         
     </header>
 </body>

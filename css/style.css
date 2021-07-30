@@ -152,6 +152,10 @@ body{
     margin-bottom: 15px;
 }
 
+.nuove-uscite img:hover{
+    cursor: pointer;
+}
+
 .nuove-uscite h6{
     width: 90%;
 }
@@ -161,12 +165,22 @@ body{
     max-width: 100%;
 }
 
-.playstation-plus{
-    background-color: #bebcbb;
+.explore-ps4 img:hover,
+.discount-psstore img:hover{
+    cursor: pointer;
 }
 
-.playstation-plus img{
+.bg-img-psnow-plus{
     width: 100%;
+}
+
+.title-logo-psnow-plus{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.playstation-plus{
+    background-color: #bebcbb;
 }
 
 .playstation-now{
@@ -174,9 +188,47 @@ body{
     color: white;
 }
 
-.playstation-now img{
+.social{
+    margin-bottom: 85px;
+}
+
+.social img{
     width: 100%;
 }
+
+.social img:hover{
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer-ps{
+    background-color: #00439c;
+    color: white;
+}
+
+.footer-ps ul{
+    list-style-type: none;
+    width: 70%;
+}
+
+.footer-ps ul li{
+    padding-top: 10px;
+}
+
+.footer-ps ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-ps li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-ps p a{
+    color: white;
+}
+
 /* ID  */
 
 #my_login-btn{
@@ -193,6 +245,10 @@ body{
     width: 30px;
 }
 
+#lens-dim:hover{
+    cursor: pointer;
+}
+
 #logo-psplus{
     width: 60%;
     margin-bottom: 20px;
@@ -201,7 +257,6 @@ body{
 #logo-psnow{
     width: 60%;
     margin-bottom: 25px;
-
 }
 
 #my_psplus-btn{
@@ -210,8 +265,28 @@ body{
     color: #2d64e6;
 }
 
+#my_psplus-btn:hover{
+    background-color: #ccccec;
+    border-color: #ccccec;
+}
+
 #my_psnow-btn{
     background-color: #f5f5f5;
     border-color: #f5f5f5;
     color: black;
+}
+
+#my_psnow-btn:hover{
+    background-color: #bbb8b8;
+    border-color: #bbb8b8;
+}
+
+#ps-footer-logo-ps{
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+#ps-footer-sie-logo{
+    width: 200px;
+    margin-bottom: 20px;
 }
