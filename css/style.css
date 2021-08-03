@@ -51,11 +51,7 @@ body{
     height: calc(100vh - 78px - 30px);
 }
 
-.inner-jumbo-text{
-    color: white;
-}
-
-.inner-jumbo-text img{
+.jumbotron img{
     width: 250px;
     margin-bottom: 30px;
 }
@@ -75,25 +71,27 @@ body{
     border-color: #1a42a1;
 }
 
+.my_img-width img{
+    max-width: 100%;
+}
+
+.my_img-width:hover img{
+    cursor: pointer;
+}
 
 .game-logo img{
-    max-width: 100%;
     border-radius: 15px;
     border: 3px solid transparent;
     padding: 3px;
+    transition: all 0.35s ease;
 }
 
 .game-logo img:hover{
     border: 3px solid #0072ce;
-    cursor: pointer;
 }
 
-.ps5-text h5{
+.ps5-console-image h5{
     color: #66aae1;
-}
-
-.ps5-console-image img{
-    max-width: 100%;
 }
 
 .thumb-device div{
@@ -101,13 +99,12 @@ body{
 }
 
 .thumb-device img{
-    max-width: 100%;
     padding-bottom: 5px;
     filter: opacity(40%);
+    transition: all 0.35s ease;
 }
 
 .thumb-device div:hover{
-    cursor: pointer;
     border-bottom: 3px solid #4095da;
 }
 
@@ -126,13 +123,8 @@ body{
     height: calc(100vh);
 }
 
-.inner-take-two-text{
-    color: white;
-}
-
-.inner-take-two-text img{
+.take-two img{
     width: 250px;
-    margin-bottom: 30px;
 }
 
 .nuove-uscite{
@@ -143,27 +135,12 @@ body{
 }
 
 .nuove-uscite img{
-    max-width: 100%;
     border-radius: 15px;
     margin-bottom: 15px;
 }
 
-.nuove-uscite img:hover{
-    cursor: pointer;
-}
-
 .nuove-uscite h6{
     width: 90%;
-}
-
-.explore-ps4 img,
-.discount-psstore img{
-    max-width: 100%;
-}
-
-.explore-ps4 img:hover,
-.discount-psstore img:hover{
-    cursor: pointer;
 }
 
 .bg-img-psnow-plus{
@@ -182,18 +159,6 @@ body{
 .playstation-now{
     background-color: #161c3b;
     color: white;
-}
-
-.social{
-    margin-bottom: 85px;
-}
-
-.social img{
-    width: 100%;
-}
-
-.social img:hover{
-    cursor: pointer;
 }
 
 /* FOOTER */
